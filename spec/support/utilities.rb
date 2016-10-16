@@ -1,3 +1,4 @@
+=begin
 def full_title(page_title)
   base_title = "Microblog"
   if page_title.empty?
@@ -6,3 +7,5 @@ def full_title(page_title)
     "#{base_title} | #{page_title}"
   end
 end
+=end
+include ApplicationHelper
